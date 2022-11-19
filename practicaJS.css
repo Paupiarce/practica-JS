@@ -1,0 +1,39 @@
+body{
+    background-color: violet;
+}
+.pokedex{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    width: 400px;
+    height: 200px;
+}
+.pokephoto{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    max-width: 180px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color:aqua;
+    text-shadow: 40px;
+-webkit-animation-duration: 6s;
+}
+.pokeinfo{
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    width: 150px;
+}
+.pokescreen{
+    background-color: gray;
+    color:aqua;
+    width: 180px;
+    height: 100px;
+    font-size: 12;
+}
